@@ -1,0 +1,40 @@
+======================================================================
+📋 ANLEITUNG: Test-Account manuell erstellen
+
+1. Öffne die Website: https://v3.verbranntezone.ch/anmelden.php
+
+2. Fülle das Formular aus:
+   ┌─────────────────────────────────────┐
+   │ Spielername: RE_Test_1120           │
+   │ Passwort:    testpass123            │
+   │ E-Mail:      re-test-1120@example.com│
+   │ (ggf. weitere Felder)               │
+   └─────────────────────────────────────┘
+
+3. Klicke auf "Anmelden" oder "Erstellen"
+
+4. Prüfe deine E-Mail (re-test-1120@example.com) auf Aktivierungslink
+
+5. Aktiviere den Account über den Link in der E-Mail
+
+6. Logge dich ein mit:
+   - Spielername: RE_Test_1120
+   - Passwort: testpass123
+
+======================================================================
+🔧 AUTOMATISCHER MODUS (optional)
+
+Um den Account automatisch zu erstellen, führe aus:
+
+    python3 login_analyzer.py https://v3.verbranntezone.ch \
+        login_analysis RE_Test_1120 testpass123
+
+======================================================================
+📊 NÄCHSTE SCHRITTE NACH DEM LOGIN:
+
+1. Network Tab der Browser DevTools öffnen (F12)
+2. Alle API-Requests loggen
+3. Session-Cookies speichern
+4. Spielaktionen analysieren
+
+======================================================================
